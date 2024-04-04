@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import SEOMetaTag from "./SEOMetaTag";
 
 function App() {
   return (
     <div className="App">
+      <SEOMetaTag />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,5 +23,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
