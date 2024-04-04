@@ -15,7 +15,7 @@
   웹사이트의 아이콘을 나타내는 파일입니다. 이 아이콘은 웹 브라우저의 주소 표시줄, 북마크 목록, 탭 제목 등에서 보여집니다.
 
 - site.webmanifest  
-  site.webmanifest와 manifest.json은 웹 애플리케이션의 메타데이터를 정의하는 파일입니다. 두 파일 모두 웹 애플리케이션을 PWA(Progressive Web App)로 만드는 데 사용되며, 앱의 이름, 아이콘, 시작 URL, 테마 색상 등을 정의합니다.
+  site.webmanifest와 manifest.json은 웹 애플리케이션의 메타데이터를 정의하는 파일입니다. 두 파일 모두 웹 애플리케이션을 PWA(Progressive Web App)로 만드는 데 사용되며, 앱의 이름, 아이콘, 시작 URL, 테마 색상 등을 정의합니다.  
   두 파일의 주요 차이점은 파일 이름입니다. manifest.json은 일반적인 파일 이름이지만, site.webmanifest는 명확한 표준 이름입니다. W3C 웹 앱 매니페스트 사양에서는 .webmanifest 확장자를 권장하고 있습니다.
   또한, site.webmanifest와 manifest.json 파일은 서버에서 올바른 MIME 타입(application/manifest+json)으로 제공되어야 합니다. 일부 서버는 .json 확장자를 자동으로 application/json으로 처리하지만, .webmanifest 확장자는 수동으로 설정해야 할 수도 있습니다.
 
@@ -32,7 +32,8 @@
 
 ## SEO 스코어 분석
 
-- 스코어 분석에 사용한 서비스: https://www.seobility.net/en/seocheck/
+- 스코어 분석에 사용한 서비스: https://www.seobility.net/en/seocheck/  
+  <a href="https://freetools.seobility.net/en/seocheck/react-basic-seo-settings.vercel.app"><img src="https://freetools.seobility.net/widget/widget.png?url=react-basic-seo-settings.vercel.app" alt="Seobility Score für react-basic-seo-settings.vercel.app"></a>
 
 ### 개선점
 
